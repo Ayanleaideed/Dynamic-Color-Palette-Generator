@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  font-family: cursive;
+  background-color: orchid;
+}
+
+h1{
+  text-align: center;
+}
+
+.container, .refresh-button{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-left: 50px; */
+}
+
+.color-container{
+  background-color: orange;
+  width: 300px;
+  height: 150px;
+  color: white;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border: solid black 2px;
+  border-radius: 15px;
+}
+/* Styling for the Refresh button */
+.refresh-button {
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Add padding to the button */
+  text-align: center; /* Center the text horizontally */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Set the button as an inline-block element */
+  font-size: 16px; /* Set the font size */
+  margin: 10px; /* Add margin around the button */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+/* Style the button on hover */
+.refresh-button:hover {
+  background-color: #45a049; /* Darker green background color on hover */
+}
